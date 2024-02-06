@@ -3,49 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles.css" />
     <title>AI Positive Affirmation Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Positive Affirmation Generator</h1>
-    </header>
-    <main>
-      What negative thought plagues you today?
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a negative thought"
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>"I am enough."</div>
-    </main>
-    <footer>
-      This was coded with 💜 by
-      <a
-        href="https://www.shecodes.io/graduates/77936-jessica-boll"
-        target="_blank"
-        title="SheCodes profile"
-        >Jessica Boll</a
-      >
-      and is
-      <a
-        href="https://github.com/ItsmeJessMarie/affirmation-generator"
-        target="_blank"
-        title="GitHub repository"
-        >open-sourced on GitHub</a
-      >
-      and is
-      <a
-        href="https://jb-ai-affirmation-generator.netlify.app/"
-        target="_blank"
-        title="Netlify link"
-        >hosted on Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Positive Affirmation Generator</h1>
+      </header>
+      <main>
+        <h2>What negative thought plagues you today?</h2>
+        <form>
+          <input
+            type="text"
+            class="instruction"
+            placeholder="Enter a negative thought"
+            required
+            autocomplete="off"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="affirmation">"I am enough."</div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a
+          href="https://www.shecodes.io/graduates/77936-jessica-boll"
+          target="_blank"
+          title="SheCodes profile"
+          >Jessica Boll</a
+        >
+        and is
+        <a
+          href="https://github.com/ItsmeJessMarie/affirmation-generator"
+          target="_blank"
+          title="GitHub repository"
+          >open-sourced on GitHub</a
+        >
+        and is
+        <a
+          href="https://jb-ai-affirmation-generator.netlify.app/"
+          target="_blank"
+          title="Netlify link"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
