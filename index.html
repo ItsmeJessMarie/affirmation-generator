@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>AI Positive Affirmation Generator</title>
   </head>
@@ -19,7 +20,7 @@
       </header>
       <main>
         <h2>What negative thought plagues you today?</h2>
-        <form>
+        <form id="positive-affirmation-generator-form">
           <input
             type="text"
             class="instruction"
@@ -29,7 +30,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="affirmation">"I am enough."</div>
+        <div class="affirmation" id="affirmation"></div>
       </main>
       <footer>
         This AI project was coded by
