@@ -1,1 +1,9 @@
+body {
+  background: teal;
+  text-align: center;
+}
 
+a {
+  text-decoration: none;
+  color: purple;
+}
