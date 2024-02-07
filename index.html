@@ -21,19 +21,22 @@
       </header>
       <main>
         <h2>What negative thought plagues you today?</h2>
-        <form id="positive-affirmation-generator-form">
-          <input
-            type="text"
-            class="instruction"
-            placeholder="Enter a negative thought"
-            required
-            autofocus
-            autocomplete="off"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="affirmation" id="affirmation"></div>
+        <div class="form-container">
+          <form id="positive-affirmation-generator-form">
+            <input
+              type="text"
+              class="instruction"
+              placeholder="Enter a negative thought"
+              required
+              autofocus
+              autocomplete="off"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: I'm not good enough</div>
+        </div>
+        <div class="affirmation hidden" id="affirmation"></div>
       </main>
       <footer>
         This AI project was coded by
